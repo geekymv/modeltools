@@ -2,10 +2,10 @@ package dbtools
 
 import (
 	"fmt"
+	"github.com/geekymv/modeltools/conf"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"log"
-	"modeltools/conf"
 	"sync"
 )
 
